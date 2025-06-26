@@ -6,7 +6,7 @@ let board = [
     [' ', ' ', ' ']
 ];
 
-let currentPlayer = 'X';
+let currentPlayer = 'X'; // Игрок, который ходит
 
 const printBoard = () => {
     for (let i = 0; i < 3; i++) {
